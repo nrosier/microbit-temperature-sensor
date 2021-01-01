@@ -8,6 +8,6 @@ basic.forever(function () {
     0,
     3300
     )
-    temperatuur = voltage - 500 / 10
+    temperatuur = (voltage - 500) / 10
     basic.showNumber(temperatuur)
 })
