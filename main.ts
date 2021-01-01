@@ -2,7 +2,7 @@ let voltage = 0
 let temperatuur = 0
 basic.forever(function () {
     voltage = pins.map(
-    0,
+    pins.analogReadPin(AnalogPin.P0),
     0,
     1023,
     0,
